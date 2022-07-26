@@ -13,17 +13,18 @@ import java.util.Scanner;
 //it is keyword in java
 //it will always have the captial letter 
 //uSING Enum name you can access the value
-enum Days {
+enum days {
 	MON, TUE, WED, THU, FRI, SAT, SUN
+	
 }
-class Employee
+class Employee7
 {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+		return "Employee7 [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
-	public Employee(int id, String name, double salary) {
+	public Employee7(int id, String name, double salary) {
 		super();
 		this.id = id;
 		this.name = name;

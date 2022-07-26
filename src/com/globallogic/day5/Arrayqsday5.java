@@ -81,11 +81,11 @@ public class Arrayqsday5 {
 			list[i]=student;
 		}
 		
-		for(Student st:list)
+		for(Student stu:list)
 		
-for(Student st:list)
+for(Student stu:list)
 		{
-			System.out.println(st);
+			System.out.println(stu);
 		}
 		
 		
